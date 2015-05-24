@@ -20,6 +20,7 @@
 		353D2AE61B1140BD0085C413 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D2ADC1B1140BD0085C413 /* SlideNavigationController.m */; };
 		353D2AED1B1143DC0085C413 /* UIView+Autolayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D2AEC1B1143DC0085C413 /* UIView+Autolayout.m */; };
 		353D2AF31B1147DA0085C413 /* GNTLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D2AF21B1147D90085C413 /* GNTLoginView.m */; };
+		353D2AF61B11B9270085C413 /* GNTTasksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D2AF51B11B9270085C413 /* GNTTasksViewController.m */; };
 		35BBC29D1B101F8A00AA3D77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BBC29C1B101F8A00AA3D77 /* main.m */; };
 		35BBC2A01B101F8A00AA3D77 /* GNTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BBC29F1B101F8A00AA3D77 /* GNTAppDelegate.m */; };
 		35BBC2A31B101F8A00AA3D77 /* GNTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BBC2A21B101F8A00AA3D77 /* GNTViewController.m */; };
@@ -63,6 +64,8 @@
 		353D2AEC1B1143DC0085C413 /* UIView+Autolayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Autolayout.m"; sourceTree = "<group>"; };
 		353D2AF11B1147D90085C413 /* GNTLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNTLoginView.h; sourceTree = "<group>"; };
 		353D2AF21B1147D90085C413 /* GNTLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNTLoginView.m; sourceTree = "<group>"; };
+		353D2AF41B11B9270085C413 /* GNTTasksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNTTasksViewController.h; sourceTree = "<group>"; };
+		353D2AF51B11B9270085C413 /* GNTTasksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNTTasksViewController.m; sourceTree = "<group>"; };
 		35BBC2971B101F8A00AA3D77 /* Intentionally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intentionally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35BBC29B1B101F8A00AA3D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35BBC29C1B101F8A00AA3D77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -183,6 +186,8 @@
 				35BBC29A1B101F8A00AA3D77 /* Supporting Files */,
 				353D2AF11B1147D90085C413 /* GNTLoginView.h */,
 				353D2AF21B1147D90085C413 /* GNTLoginView.m */,
+				353D2AF41B11B9270085C413 /* GNTTasksViewController.h */,
+				353D2AF51B11B9270085C413 /* GNTTasksViewController.m */,
 			);
 			path = Intentionally;
 			sourceTree = "<group>";
@@ -377,6 +382,7 @@
 				353D2ADD1B1140BD0085C413 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
 				35BBC29D1B101F8A00AA3D77 /* main.m in Sources */,
 				353D2AE11B1140BD0085C413 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				353D2AF61B11B9270085C413 /* GNTTasksViewController.m in Sources */,
 				353D2AF31B1147DA0085C413 /* GNTLoginView.m in Sources */,
 				353D2AE01B1140BD0085C413 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 			);

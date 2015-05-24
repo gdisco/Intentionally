@@ -7,38 +7,34 @@
 //
 
 #import "GNTViewController.h"
+#import "GNTLoginView.h"
+#import "GNTTasksViewController.h"
 #import "UIView+Autolayout.h"
+#import "FontAwesomeKit.h"
+#import "LeftMenuViewController.h"
+#import "SlideNavigationController.h"
 
-@interface GNTViewController()<UITextFieldDelegate>
+@interface GNTViewController()<UITextFieldDelegate, SlideNavigationControllerDelegate>
 @end
 
-@implementation GNTViewController
+@implementation GNTViewController {
+    GNTTasksViewController *_tasksViewController;
+}
 
-- (void)loadView {
-    UIView *view = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    view.backgroundColor = [UIColor colorWithRed:129/255.0 green:185/255.0 blue:90/255.0 alpha:1];
-    
-    UITapGestureRecognizer *tapOffRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(_backgroundTapped)];
-    [view addGestureRecognizer:tapOffRecognizer];
-    
-    UITextField *funTextField = [[UITextField alloc] init];
-    funTextField.borderStyle = UITextBorderStyleLine;
-    funTextField.textAlignment = NSTextAlignmentCenter;
-    funTextField.placeholder = @"username";
-    [view addConstrainedSubview:funTextField];
-
-    // Line up the text field in the center of the view.
-    NSDictionary *viewsDict = NSDictionaryOfVariableBindings(funTextField);
-    [view addConstraint:[NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:funTextField attribute:NSLayoutAttributeCenterX multiplier:1 constant:0]];
-    [view addConstraint:[NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:funTextField attribute:NSLayoutAttributeCenterY multiplier:1 constant:0]];
-    [view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|-50-[funTextField]-50-|" options:0 metrics:nil views:viewsDict]];
-    
-    self.view = view;
- }
+// Main view controller's frame takes up the whole screen.
+- (void)loadView {    GNTLoginView *loginView = [[GNTLoginView alloc] init];
+    UIView *view = [[UIView alloc] init];
+    view.frame = [UIScreen mainScreen].bounds;
+    self.view = loginView;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+}
+
+// Just make the tasks view controller the same size as the main view controller
+- (void)layoutSubviews {
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,11 +42,9 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Touch Event Handling
-- (void)_backgroundTapped {
-    [self.view endEditing:YES];
+#pragma mark - SlideNavigationControllerDelegate
+- (BOOL)slideNavigationControllerShouldDisplayLeftMenu {
+    return YES;
 }
-
-#pragma mark - UITextFieldDelegate
 
 @end

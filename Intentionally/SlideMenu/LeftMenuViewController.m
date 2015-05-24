@@ -27,11 +27,12 @@
 - (void)viewDidLoad
 {
 	[super viewDidLoad];
-	
+
 	self.tableView.separatorColor = [UIColor lightGrayColor];
 	
 	UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"leftMenu.jpg"]];
 	self.tableView.backgroundView = imageView;
+//    self.tableView.backgroundColor = [UIColor redColor];
 }
 
 #pragma mark - UITableView Delegate & Datasrouce -
@@ -55,20 +56,25 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"leftMenuCell"];
-	
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"leftMenuCell"];
+    
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"leftMenuCell"];
+        cell.textLabel.textColor = [UIColor whiteColor];
+    }
+    
 	switch (indexPath.row)
 	{
 		case 0:
-			cell.textLabel.text = @"Home";
+			cell.textLabel.text = @"Today";
 			break;
 			
 		case 1:
-			cell.textLabel.text = @"Profile";
+			cell.textLabel.text = @"Change File";
 			break;
 			
 		case 2:
-			cell.textLabel.text = @"Friends";
+			cell.textLabel.text = @"All Settings";
 			break;
 			
 		case 3:
@@ -83,35 +89,11 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPhone"
-															 bundle: nil];
-	
-	UIViewController *vc ;
-	
-	switch (indexPath.row)
-	{
-		case 0:
-			vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"HomeViewController"];
-			break;
-			
-		case 1:
-			vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"ProfileViewController"];
-			break;
-			
-		case 2:
-			vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"FriendsViewController"];
-			break;
-			
-		case 3:
-			[self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
-			[[SlideNavigationController sharedInstance] popToRootViewControllerAnimated:YES];
-			return;
-			break;
-	}
-	
-	[[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:vc
-															 withSlideOutAnimation:self.slideOutAnimationEnabled
-																	 andCompletion:nil];
+    
+    
+//	[[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:vc
+//															 withSlideOutAnimation:self.slideOutAnimationEnabled
+//																	 andCompletion:nil];
 }
 
 @end

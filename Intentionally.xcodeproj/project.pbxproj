@@ -21,6 +21,7 @@
 		353D2AED1B1143DC0085C413 /* UIView+Autolayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D2AEC1B1143DC0085C413 /* UIView+Autolayout.m */; };
 		353D2AF31B1147DA0085C413 /* GNTLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D2AF21B1147D90085C413 /* GNTLoginView.m */; };
 		353D2AF61B11B9270085C413 /* GNTTasksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D2AF51B11B9270085C413 /* GNTTasksViewController.m */; };
+		353D2AF91B11D3840085C413 /* leftMenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 353D2AF81B11D3840085C413 /* leftMenu.jpg */; };
 		35BBC29D1B101F8A00AA3D77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BBC29C1B101F8A00AA3D77 /* main.m */; };
 		35BBC2A01B101F8A00AA3D77 /* GNTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BBC29F1B101F8A00AA3D77 /* GNTAppDelegate.m */; };
 		35BBC2A31B101F8A00AA3D77 /* GNTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BBC2A21B101F8A00AA3D77 /* GNTViewController.m */; };
@@ -66,6 +67,7 @@
 		353D2AF21B1147D90085C413 /* GNTLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNTLoginView.m; sourceTree = "<group>"; };
 		353D2AF41B11B9270085C413 /* GNTTasksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNTTasksViewController.h; sourceTree = "<group>"; };
 		353D2AF51B11B9270085C413 /* GNTTasksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNTTasksViewController.m; sourceTree = "<group>"; };
+		353D2AF81B11D3840085C413 /* leftMenu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leftMenu.jpg; sourceTree = "<group>"; };
 		35BBC2971B101F8A00AA3D77 /* Intentionally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intentionally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35BBC29B1B101F8A00AA3D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35BBC29C1B101F8A00AA3D77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -152,6 +154,15 @@
 			name = Helpers;
 			sourceTree = "<group>";
 		};
+		353D2AF71B11D32E0085C413 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				353D2AF81B11D3840085C413 /* leftMenu.jpg */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		35BBC28E1B101F8900AA3D77 = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +186,7 @@
 		35BBC2991B101F8A00AA3D77 /* Intentionally */ = {
 			isa = PBXGroup;
 			children = (
+				353D2AF71B11D32E0085C413 /* Resources */,
 				353D2AE71B1143290085C413 /* Helpers */,
 				353D2AC71B1140BD0085C413 /* SlideMenu */,
 				35BBC29E1B101F8A00AA3D77 /* GNTAppDelegate.h */,
@@ -321,6 +333,7 @@
 				353D2AE31B1140BD0085C413 /* menu-button@2x.png in Resources */,
 				35BBC2A81B101F8A00AA3D77 /* Images.xcassets in Resources */,
 				353D2AE21B1140BD0085C413 /* menu-button.png in Resources */,
+				353D2AF91B11D3840085C413 /* leftMenu.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,22 +1,29 @@
 //
-//  AppDelegate.m
+//  GNTAppDelegate.m
 //  Intentionally
 //
 //  Created by Garrett Disco on 5/22/15.
 //  Copyright (c) 2015 Garrett Disco. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "GNTAppDelegate.h"
+#import "GNTViewController.h"
 
-@interface AppDelegate ()
+@interface GNTAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation GNTAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    GNTViewController *rootvc = [[GNTViewController alloc] init];
+    self.window.rootViewController = rootvc;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

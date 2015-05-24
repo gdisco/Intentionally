@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  GNTViewController.h
 //  Intentionally
 //
 //  Created by Garrett Disco on 5/22/15.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface GNTViewController : UIViewController
 
 
 @end

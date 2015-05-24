@@ -7,10 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A23FE9470293322821F8137 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FF05CE39B24233114F10E6 /* libPods.a */; };
+		353D2ADD1B1140BD0085C413 /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D2ACB1B1140BD0085C413 /* SlideNavigationContorllerAnimatorFade.m */; };
+		353D2ADE1B1140BD0085C413 /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D2ACD1B1140BD0085C413 /* SlideNavigationContorllerAnimatorScale.m */; };
+		353D2ADF1B1140BD0085C413 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D2ACF1B1140BD0085C413 /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		353D2AE01B1140BD0085C413 /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D2AD11B1140BD0085C413 /* SlideNavigationContorllerAnimatorSlide.m */; };
+		353D2AE11B1140BD0085C413 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D2AD31B1140BD0085C413 /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+		353D2AE21B1140BD0085C413 /* menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 353D2AD51B1140BD0085C413 /* menu-button.png */; };
+		353D2AE31B1140BD0085C413 /* menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 353D2AD61B1140BD0085C413 /* menu-button@2x.png */; };
+		353D2AE41B1140BD0085C413 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D2AD81B1140BD0085C413 /* LeftMenuViewController.m */; };
+		353D2AE51B1140BD0085C413 /* RightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D2ADA1B1140BD0085C413 /* RightMenuViewController.m */; };
+		353D2AE61B1140BD0085C413 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D2ADC1B1140BD0085C413 /* SlideNavigationController.m */; };
+		353D2AED1B1143DC0085C413 /* UIView+Autolayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D2AEC1B1143DC0085C413 /* UIView+Autolayout.m */; };
+		353D2AF31B1147DA0085C413 /* GNTLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D2AF21B1147D90085C413 /* GNTLoginView.m */; };
 		35BBC29D1B101F8A00AA3D77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BBC29C1B101F8A00AA3D77 /* main.m */; };
-		35BBC2A01B101F8A00AA3D77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BBC29F1B101F8A00AA3D77 /* AppDelegate.m */; };
-		35BBC2A31B101F8A00AA3D77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BBC2A21B101F8A00AA3D77 /* ViewController.m */; };
-		35BBC2A61B101F8A00AA3D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35BBC2A41B101F8A00AA3D77 /* Main.storyboard */; };
+		35BBC2A01B101F8A00AA3D77 /* GNTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BBC29F1B101F8A00AA3D77 /* GNTAppDelegate.m */; };
+		35BBC2A31B101F8A00AA3D77 /* GNTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BBC2A21B101F8A00AA3D77 /* GNTViewController.m */; };
 		35BBC2A81B101F8A00AA3D77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35BBC2A71B101F8A00AA3D77 /* Images.xcassets */; };
 		35BBC2AB1B101F8B00AA3D77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35BBC2A91B101F8B00AA3D77 /* LaunchScreen.xib */; };
 		35BBC2B71B101F8B00AA3D77 /* IntentionallyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BBC2B61B101F8B00AA3D77 /* IntentionallyTests.m */; };
@@ -27,19 +39,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18FF05CE39B24233114F10E6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		353D2AC91B1140BD0085C413 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		353D2ACA1B1140BD0085C413 /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
+		353D2ACB1B1140BD0085C413 /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		353D2ACC1B1140BD0085C413 /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
+		353D2ACD1B1140BD0085C413 /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
+		353D2ACE1B1140BD0085C413 /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
+		353D2ACF1B1140BD0085C413 /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
+		353D2AD01B1140BD0085C413 /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		353D2AD11B1140BD0085C413 /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		353D2AD21B1140BD0085C413 /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		353D2AD31B1140BD0085C413 /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+		353D2AD51B1140BD0085C413 /* menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button.png"; sourceTree = "<group>"; };
+		353D2AD61B1140BD0085C413 /* menu-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button@2x.png"; sourceTree = "<group>"; };
+		353D2AD71B1140BD0085C413 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		353D2AD81B1140BD0085C413 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		353D2AD91B1140BD0085C413 /* RightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightMenuViewController.h; sourceTree = "<group>"; };
+		353D2ADA1B1140BD0085C413 /* RightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightMenuViewController.m; sourceTree = "<group>"; };
+		353D2ADB1B1140BD0085C413 /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
+		353D2ADC1B1140BD0085C413 /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
+		353D2AEB1B1143DC0085C413 /* UIView+Autolayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Autolayout.h"; sourceTree = "<group>"; };
+		353D2AEC1B1143DC0085C413 /* UIView+Autolayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Autolayout.m"; sourceTree = "<group>"; };
+		353D2AF11B1147D90085C413 /* GNTLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNTLoginView.h; sourceTree = "<group>"; };
+		353D2AF21B1147D90085C413 /* GNTLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNTLoginView.m; sourceTree = "<group>"; };
 		35BBC2971B101F8A00AA3D77 /* Intentionally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intentionally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35BBC29B1B101F8A00AA3D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35BBC29C1B101F8A00AA3D77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		35BBC29E1B101F8A00AA3D77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		35BBC29F1B101F8A00AA3D77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		35BBC2A11B101F8A00AA3D77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		35BBC2A21B101F8A00AA3D77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		35BBC2A51B101F8A00AA3D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35BBC29E1B101F8A00AA3D77 /* GNTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GNTAppDelegate.h; sourceTree = "<group>"; };
+		35BBC29F1B101F8A00AA3D77 /* GNTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNTAppDelegate.m; sourceTree = "<group>"; };
+		35BBC2A11B101F8A00AA3D77 /* GNTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GNTViewController.h; sourceTree = "<group>"; };
+		35BBC2A21B101F8A00AA3D77 /* GNTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNTViewController.m; sourceTree = "<group>"; };
 		35BBC2A71B101F8A00AA3D77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		35BBC2AA1B101F8B00AA3D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		35BBC2B01B101F8B00AA3D77 /* IntentionallyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntentionallyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35BBC2B51B101F8B00AA3D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35BBC2B61B101F8B00AA3D77 /* IntentionallyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentionallyTests.m; sourceTree = "<group>"; };
+		39316C971E279D9360688BFB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D9484B2639D56A816663A8B7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A23FE9470293322821F8137 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +98,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		353D2AC71B1140BD0085C413 /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				353D2AC81B1140BD0085C413 /* Animations */,
+				353D2AD41B1140BD0085C413 /* Assets */,
+				353D2AD71B1140BD0085C413 /* LeftMenuViewController.h */,
+				353D2AD81B1140BD0085C413 /* LeftMenuViewController.m */,
+				353D2AD91B1140BD0085C413 /* RightMenuViewController.h */,
+				353D2ADA1B1140BD0085C413 /* RightMenuViewController.m */,
+				353D2ADB1B1140BD0085C413 /* SlideNavigationController.h */,
+				353D2ADC1B1140BD0085C413 /* SlideNavigationController.m */,
+			);
+			path = SlideMenu;
+			sourceTree = "<group>";
+		};
+		353D2AC81B1140BD0085C413 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				353D2AC91B1140BD0085C413 /* SlideNavigationContorllerAnimator.h */,
+				353D2ACA1B1140BD0085C413 /* SlideNavigationContorllerAnimatorFade.h */,
+				353D2ACB1B1140BD0085C413 /* SlideNavigationContorllerAnimatorFade.m */,
+				353D2ACC1B1140BD0085C413 /* SlideNavigationContorllerAnimatorScale.h */,
+				353D2ACD1B1140BD0085C413 /* SlideNavigationContorllerAnimatorScale.m */,
+				353D2ACE1B1140BD0085C413 /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				353D2ACF1B1140BD0085C413 /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				353D2AD01B1140BD0085C413 /* SlideNavigationContorllerAnimatorSlide.h */,
+				353D2AD11B1140BD0085C413 /* SlideNavigationContorllerAnimatorSlide.m */,
+				353D2AD21B1140BD0085C413 /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				353D2AD31B1140BD0085C413 /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		353D2AD41B1140BD0085C413 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				353D2AD51B1140BD0085C413 /* menu-button.png */,
+				353D2AD61B1140BD0085C413 /* menu-button@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		353D2AE71B1143290085C413 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				353D2AEB1B1143DC0085C413 /* UIView+Autolayout.h */,
+				353D2AEC1B1143DC0085C413 /* UIView+Autolayout.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		35BBC28E1B101F8900AA3D77 = {
 			isa = PBXGroup;
 			children = (
 				35BBC2991B101F8A00AA3D77 /* Intentionally */,
 				35BBC2B31B101F8B00AA3D77 /* IntentionallyTests */,
 				35BBC2981B101F8A00AA3D77 /* Products */,
+				65331A06BD077DF9622446EA /* Pods */,
+				3F60D680681774C4EC703139 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +172,17 @@
 		35BBC2991B101F8A00AA3D77 /* Intentionally */ = {
 			isa = PBXGroup;
 			children = (
-				35BBC29E1B101F8A00AA3D77 /* AppDelegate.h */,
-				35BBC29F1B101F8A00AA3D77 /* AppDelegate.m */,
-				35BBC2A11B101F8A00AA3D77 /* ViewController.h */,
-				35BBC2A21B101F8A00AA3D77 /* ViewController.m */,
-				35BBC2A41B101F8A00AA3D77 /* Main.storyboard */,
+				353D2AE71B1143290085C413 /* Helpers */,
+				353D2AC71B1140BD0085C413 /* SlideMenu */,
+				35BBC29E1B101F8A00AA3D77 /* GNTAppDelegate.h */,
+				35BBC29F1B101F8A00AA3D77 /* GNTAppDelegate.m */,
+				35BBC2A11B101F8A00AA3D77 /* GNTViewController.h */,
+				35BBC2A21B101F8A00AA3D77 /* GNTViewController.m */,
 				35BBC2A71B101F8A00AA3D77 /* Images.xcassets */,
 				35BBC2A91B101F8B00AA3D77 /* LaunchScreen.xib */,
 				35BBC29A1B101F8A00AA3D77 /* Supporting Files */,
+				353D2AF11B1147D90085C413 /* GNTLoginView.h */,
+				353D2AF21B1147D90085C413 /* GNTLoginView.m */,
 			);
 			path = Intentionally;
 			sourceTree = "<group>";
@@ -119,6 +213,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3F60D680681774C4EC703139 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18FF05CE39B24233114F10E6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65331A06BD077DF9622446EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39316C971E279D9360688BFB /* Pods.debug.xcconfig */,
+				D9484B2639D56A816663A8B7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35BBC2BA1B101F8B00AA3D77 /* Build configuration list for PBXNativeTarget "Intentionally" */;
 			buildPhases = (
+				D1F2A89BEB0C213A6E393264 /* Check Pods Manifest.lock */,
 				35BBC2931B101F8A00AA3D77 /* Sources */,
 				35BBC2941B101F8A00AA3D77 /* Frameworks */,
 				35BBC2951B101F8A00AA3D77 /* Resources */,
+				86B52F381B4FBFA4AD74A2D4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +312,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35BBC2A61B101F8A00AA3D77 /* Main.storyboard in Resources */,
 				35BBC2AB1B101F8B00AA3D77 /* LaunchScreen.xib in Resources */,
+				353D2AE31B1140BD0085C413 /* menu-button@2x.png in Resources */,
 				35BBC2A81B101F8A00AA3D77 /* Images.xcassets in Resources */,
+				353D2AE21B1140BD0085C413 /* menu-button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +328,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		86B52F381B4FBFA4AD74A2D4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F2A89BEB0C213A6E393264 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		35BBC2931B101F8A00AA3D77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35BBC2A31B101F8A00AA3D77 /* ViewController.m in Sources */,
-				35BBC2A01B101F8A00AA3D77 /* AppDelegate.m in Sources */,
+				353D2AE61B1140BD0085C413 /* SlideNavigationController.m in Sources */,
+				353D2ADE1B1140BD0085C413 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+				353D2ADF1B1140BD0085C413 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
+				35BBC2A31B101F8A00AA3D77 /* GNTViewController.m in Sources */,
+				35BBC2A01B101F8A00AA3D77 /* GNTAppDelegate.m in Sources */,
+				353D2AED1B1143DC0085C413 /* UIView+Autolayout.m in Sources */,
+				353D2AE51B1140BD0085C413 /* RightMenuViewController.m in Sources */,
+				353D2AE41B1140BD0085C413 /* LeftMenuViewController.m in Sources */,
+				353D2ADD1B1140BD0085C413 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
 				35BBC29D1B101F8A00AA3D77 /* main.m in Sources */,
+				353D2AE11B1140BD0085C413 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				353D2AF31B1147DA0085C413 /* GNTLoginView.m in Sources */,
+				353D2AE01B1140BD0085C413 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +401,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		35BBC2A41B101F8A00AA3D77 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				35BBC2A51B101F8A00AA3D77 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		35BBC2A91B101F8B00AA3D77 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,6 +490,7 @@
 		};
 		35BBC2BB1B101F8B00AA3D77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39316C971E279D9360688BFB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Intentionally/Info.plist;
@@ -351,6 +501,7 @@
 		};
 		35BBC2BC1B101F8B00AA3D77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9484B2639D56A816663A8B7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Intentionally/Info.plist;
@@ -412,6 +563,7 @@
 				35BBC2BC1B101F8B00AA3D77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35BBC2BD1B101F8B00AA3D77 /* Build configuration list for PBXNativeTarget "IntentionallyTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +572,7 @@
 				35BBC2BF1B101F8B00AA3D77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

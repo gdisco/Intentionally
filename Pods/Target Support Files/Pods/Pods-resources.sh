@@ -58,12 +58,14 @@ install_resource()
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "Dropbox-iOS-Dropins-SDK/dropbox-ios-dropins-sdk-1.2.1/DBChooser.bundle"
   install_resource "FontAwesomeKit/FontAwesomeKit/FontAwesome.otf"
   install_resource "FontAwesomeKit/FontAwesomeKit/foundation-icons.ttf"
   install_resource "FontAwesomeKit/FontAwesomeKit/ionicons.ttf"
   install_resource "FontAwesomeKit/FontAwesomeKit/zocial-regular-webfont.ttf"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "Dropbox-iOS-Dropins-SDK/dropbox-ios-dropins-sdk-1.2.1/DBChooser.bundle"
   install_resource "FontAwesomeKit/FontAwesomeKit/FontAwesome.otf"
   install_resource "FontAwesomeKit/FontAwesomeKit/foundation-icons.ttf"
   install_resource "FontAwesomeKit/FontAwesomeKit/ionicons.ttf"

@@ -6,6 +6,12 @@
 // project.
 
 
+// Dropbox-iOS-Dropins-SDK
+#define COCOAPODS_POD_AVAILABLE_Dropbox_iOS_Dropins_SDK
+#define COCOAPODS_VERSION_MAJOR_Dropbox_iOS_Dropins_SDK 1
+#define COCOAPODS_VERSION_MINOR_Dropbox_iOS_Dropins_SDK 2
+#define COCOAPODS_VERSION_PATCH_Dropbox_iOS_Dropins_SDK 1
+
 // FontAwesomeKit
 #define COCOAPODS_POD_AVAILABLE_FontAwesomeKit
 #define COCOAPODS_VERSION_MAJOR_FontAwesomeKit 2

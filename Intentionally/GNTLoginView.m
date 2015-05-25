@@ -9,6 +9,8 @@
 #import "GNTLoginView.h"
 #import "FontAwesomeKit.h"
 #import "UIView+Autolayout.h"
+#import "SlideNavigationController.h"
+#import "GNTTasksViewController.h"
 
 @interface GNTLoginView()<UIGestureRecognizerDelegate, UITextFieldDelegate>
 @end
@@ -113,8 +115,9 @@
         [_passwordTextField becomeFirstResponder];
     }
     else if ([textField.placeholder isEqualToString:@"password"]) {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"junk" message:@"junk" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        [alert show];
+        GNTTasksViewController *tasksVC = [[GNTTasksViewController alloc] init];
+        tasksVC.view.frame = self.bounds;
+        [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:tasksVC withSlideOutAnimation:YES andCompletion:nil];
     }
     return YES;
 }

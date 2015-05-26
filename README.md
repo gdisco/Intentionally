@@ -1,5 +1,5 @@
 # Intention Ally
-Minimalist Life Planner
+Meditative Life Planner
 
 Intention Ally helps you feel accomplished at the end of each day. It is not a fully featured todo app, but a way to overcome
 distractions and build powerful goal-setting habits.
